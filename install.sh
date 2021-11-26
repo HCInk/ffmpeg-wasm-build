@@ -5,7 +5,7 @@ set -e
 
 echo "Installing FFmpeg-wasm..."
 
-DEST_FOLDER="~/.emscripten_cache/sysroot"
+DEST_FOLDER=~/.emscripten_cache/sysroot
 
 cd build/
 cd lib/
